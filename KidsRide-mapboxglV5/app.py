@@ -27,7 +27,7 @@ def directions():
 # /data route to return mongo db data to clusterslogic.js  and directionslogic.js 
 @app.route("/data")
 def data():
-    documents = mongo.db.activityData20.find()
+    documents = mongo.db.activityData30.find()
     response = []
     for document in documents:
         #document['_id'] = str(document['_id'])
