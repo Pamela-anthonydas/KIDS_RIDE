@@ -21,8 +21,8 @@ Shwetha
 Mark
 
 Instructions for how to run the app:
-Run the Google Dance,Music and Sports-Address Updated_MD urls.ipynb first which does the webscraping (takes some time)
-	which automaticallyl uses pymongo to setup the kidsridedb MongoDB database and stores all the webscraped data into the activityData30 collection
+Run the Google Dance,Music and Sports-Address Updated_MD (3).ipynb first which does the webscraping (takes some time) which automatically uses pymongo to setup the kidsridedb MongoDB database and stores all the webscraped data into the activityData30 collection
+
 Open up GitBash and type "python app.py" to run the Python Flask application
 Copy the 127.0.0.1:5000/ to see the home route (i.e. the landing page). Other routes described above
 You must have created an account for an API Key in Mapbox and put in config.js file.
@@ -30,5 +30,4 @@ Use the /map route to see all the Kids Activities in the map region.
 When you click on a specific icon, it shows the Name of the company, address, and phone (if available).
 Click on the Name and the browser will direct you to the company website.
 
-Presentation: KidsRide
-Link to presentation (or include the .ppt in your repo)
+Presentation: KidsRide.pdf
